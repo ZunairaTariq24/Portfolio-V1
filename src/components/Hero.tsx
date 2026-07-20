@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Github, Linkedin, Globe, Mail, MapPin, ArrowRight, Code, Sparkles, Terminal, CheckCircle } from 'lucide-react';
+import { GitHub, LinkedIn, Globe, Mail, MapPin, ArrowRight, Code, Sparkles, Terminal, CheckCircle } from 'lucide-react';
 import { AVATAR_IMAGE } from '../data';
 
 interface HeroProps {
