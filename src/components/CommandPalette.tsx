@@ -24,8 +24,8 @@ export default function CommandPalette({ isOpen, onClose, onNavigate, onCopyEmai
     { id: 'contact', label: 'Go to Contact Form', category: 'Navigation', icon: Mail, action: () => onNavigate('contact') },
     { id: 'copy-email', label: 'Copy Email Address', category: 'Utility', icon: Mail, action: () => { onCopyEmail(); onClose(); } },
     { id: 'download-resume', label: 'Download Resume (PDF)', category: 'Utility', icon: FileText, action: () => { onDownloadResume(); onClose(); } },
-    { id: 'github', label: 'Visit GitHub Profile', category: 'External', icon: Github, action: () => { window.open('https://github.com/zunairatariq985', '_blank'); onClose(); } },
-    { id: 'linkedin', label: 'Visit LinkedIn Profile', category: 'External', icon: Linkedin, action: () => { window.open('https://linkedin.com/in/zunaira-tariq', '_blank'); onClose(); } },
+    { id: 'github', label: 'Visit GitHub Profile', category: 'External', icon: GitHub, action: () => { window.open('https://github.com/zunairatariq985', '_blank'); onClose(); } },
+    { id: 'linkedin', label: 'Visit LinkedIn Profile', category: 'External', icon: LinkedIn, action: () => { window.open('https://linkedin.com/in/zunaira-tariq', '_blank'); onClose(); } },
   ];
 
   const filteredCommands = commands.filter((cmd) =>
