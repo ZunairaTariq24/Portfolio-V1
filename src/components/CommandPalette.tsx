@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Search, Command, CornerDownLeft, User, Code, FileText, Mail, Github, Linkedin, ExternalLink, Briefcase, GraduationCap, X } from 'lucide-react';
-
+import { Search, Command, CornerDownLeft, User, Code, FileText, Mail, GitHub, LinkedIn, ExternalLink, Briefcase, GraduationCap, X } from 'lucide-react';
 interface CommandPaletteProps {
   isOpen: boolean;
   onClose: () => void;
