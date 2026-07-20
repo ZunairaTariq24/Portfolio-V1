@@ -48,7 +48,7 @@ export default function Footer({ onNavigate, onCopyEmail }: FooterProps) {
                 className="p-2 rounded-lg border border-zinc-200 dark:border-zinc-800 text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-900/40"
                 title="GitHub"
               >
-                <Github size={14} />
+                <GitHub size={14} />
               </a>
               <a
                 href="https://linkedin.com/in/zunaira-tariq"
@@ -57,7 +57,7 @@ export default function Footer({ onNavigate, onCopyEmail }: FooterProps) {
                 className="p-2 rounded-lg border border-zinc-200 dark:border-zinc-800 text-zinc-500 hover:text-indigo-500 dark:hover:text-blue-400 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-900/40"
                 title="LinkedIn"
               >
-                <Linkedin size={14} />
+                <LinkedIn size={14} />
               </a>
               <button
                 onClick={onCopyEmail}
