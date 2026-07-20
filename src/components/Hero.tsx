@@ -28,8 +28,8 @@ export default function Hero({ onNavigate, onCopyEmail }: HeroProps) {
   }, []);
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/zunairatariq985', label: 'GitHub', color: 'hover:text-zinc-900 dark:hover:text-white' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/zunaira-tariq', label: 'LinkedIn', color: 'hover:text-blue-600 dark:hover:text-blue-400' },
+    { icon: GitHub, href: 'https://github.com/zunairatariq985', label: 'GitHub', color: 'hover:text-zinc-900 dark:hover:text-white' },
+    { icon: LinkedIn, href: 'https://linkedin.com/in/zunaira-tariq', label: 'LinkedIn', color: 'hover:text-blue-600 dark:hover:text-blue-400' },
     { icon: Globe, href: '#home', label: 'Portfolio', color: 'hover:text-indigo-600 dark:hover:text-indigo-400' },
     { icon: Mail, onClick: onCopyEmail, label: 'Copy Email', color: 'hover:text-emerald-600 dark:hover:text-emerald-400' },
   ];
