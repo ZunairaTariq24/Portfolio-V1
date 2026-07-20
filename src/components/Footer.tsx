@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Github, Linkedin, Mail, Sparkles, Heart } from 'lucide-react';
+import { GitHub, LinkedIn, Mail, Sparkles, Heart } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
