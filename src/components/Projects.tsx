@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ExternalLink, Github, Layers, ArrowRight, Play, Eye, Sparkles, X, Server, Database, Smartphone, Laptop, Cpu, CheckCircle } from 'lucide-react';
+import { ExternalLink, GitHub, Layers, ArrowRight, Play, Eye, Sparkles, X, Server, Database, Smartphone, Laptop, Cpu, CheckCircle } from 'lucide-react';
 import { PROJECTS } from '../data';
 import { Project } from '../types';
 
