@@ -691,7 +691,7 @@ export default function Projects() {
                         rel="noreferrer"
                         className="inline-flex items-center gap-1.5 px-4 py-2 rounded bg-indigo-600 text-white text-xs font-semibold mt-2"
                       >
-                        <Github size={14} />
+                        <GitHub size={14} />
                         <span>View Source Code on GitHub</span>
                       </a>
                     </div>
